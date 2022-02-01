@@ -1,0 +1,26 @@
+package com.cpagi.day2;
+
+class Student
+{
+
+
+	private int rollno;
+	 private String name;
+	 private static String schoolName;
+	 
+}
+
+
+public class MyStatic {
+	
+	public static void main(String args[])
+	{
+		
+		//Student
+		
+		Student s1=new Student(1001, "Ansar","Abc School");
+		Student s3=new Student(1002, "Priya","Abc School");
+		Student s2=new Student(1003, "Mehesh","Abc School");
+	}
+
+}

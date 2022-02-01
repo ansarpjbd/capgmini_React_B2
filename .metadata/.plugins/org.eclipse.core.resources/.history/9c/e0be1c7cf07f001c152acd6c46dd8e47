@@ -1,0 +1,30 @@
+package com.cpagi.day2;
+
+class Student
+{
+
+	 @Override
+	public String toString() {
+		return "Student [rollno=" + rollno + ", name=" + name + ", schoolName=" + schoolName + "]";
+	}
+	public Student(int rollno, String name, String schoolName) {
+		super();
+		this.rollno = rollno;
+		this.name = name;
+		this.schoolName = schoolName;
+	}
+	private int rollno;
+	 private String name;
+	 private String schoolName;
+	 
+}
+
+
+public class MyStatic {
+	
+	public static void main(String args[])
+	{
+		
+	}
+
+}

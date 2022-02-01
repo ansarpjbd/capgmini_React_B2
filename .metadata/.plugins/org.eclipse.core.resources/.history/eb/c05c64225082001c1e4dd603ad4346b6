@@ -1,0 +1,36 @@
+package com.cpagi.day3;
+
+class Parent
+{
+public void printParent()
+{
+	System.out.println("Parent class");
+}
+}
+
+class Child1 extends Parent
+{
+
+public void printChild()
+{
+	System.out.println("Child class");
+}
+}
+class Child2 extends Parent
+{
+
+	public void printChild()
+	{
+   System.out.println("Child class");		
+	}
+	
+}
+
+public class HierarchicalInheritance {
+
+	public static void main(String args[])
+	{
+     		
+	}
+	
+}

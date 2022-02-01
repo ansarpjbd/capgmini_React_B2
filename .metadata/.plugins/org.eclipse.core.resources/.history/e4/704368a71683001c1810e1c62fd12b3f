@@ -1,0 +1,19 @@
+package com.cpagi.day3;
+
+
+
+class employee
+{
+	private int empID;
+	private String name;
+	private float salary;
+	
+}
+
+public class MyEncapsulaton {
+	public static void main(String args[])
+	{
+		
+	}
+
+}

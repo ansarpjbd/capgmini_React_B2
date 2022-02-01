@@ -1,0 +1,38 @@
+package com.cpagi.day3;
+
+
+//Where we are using the method of parent class in child class
+class A
+{
+
+public void printA()
+{
+	System.out.println("I am class A");
+}
+	
+}
+
+//class keyword  extends keyword  class name
+class B extends A
+{
+public void printB()
+{
+System.out.println("i m class B");	
+}
+	
+}
+
+
+public class MyInheritance {
+	
+	
+	public static void main(String args[])
+	{	
+		//using the class B
+		B b=new B();
+		b.printB();
+		b.printA();
+		
+	}
+
+}

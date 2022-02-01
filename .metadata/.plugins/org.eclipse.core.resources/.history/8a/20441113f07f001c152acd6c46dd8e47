@@ -1,0 +1,10 @@
+package com.cpagi.day2;
+
+public class MyStatic {
+	
+	public static void main(String args[])
+	{
+		
+	}
+
+}

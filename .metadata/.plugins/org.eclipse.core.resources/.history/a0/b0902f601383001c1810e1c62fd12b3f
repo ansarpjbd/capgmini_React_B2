@@ -1,0 +1,31 @@
+package com.cpagi.day3;
+
+//Overloading
+//it can be done with same class
+//we should have same method name with different parameters for this
+
+class MyShape {
+
+	public void draw(int a, int b) {
+		System.out.println("line drawing ");
+	}
+	
+	public void draw(int a, int b,int c) {
+		System.out.println("circle drawing ");
+	}
+	
+	public void draw(int a, int b,int c,int d) {
+		System.out.println("Sequare drawing ");
+	}
+
+
+}
+
+public class MyPolymorphismMethodOverloading {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

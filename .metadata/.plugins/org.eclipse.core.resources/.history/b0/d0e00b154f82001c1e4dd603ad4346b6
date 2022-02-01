@@ -1,0 +1,32 @@
+package com.cpagi.day3;
+
+class A1
+{
+	public void printA()
+	{
+		System.out.println("class A");
+	}
+}
+class B1
+{
+	public void printB()
+	{
+		System.out.println("class B");
+	}
+}
+
+class C1
+{
+	
+	
+}
+
+
+class D1
+{
+	
+}
+
+public class MultiLevelInheritance {
+
+}

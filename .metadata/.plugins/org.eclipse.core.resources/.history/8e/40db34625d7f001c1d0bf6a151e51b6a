@@ -1,0 +1,18 @@
+package com.capgmini.helloworld;
+
+public class FindTheLargestOFThreeNumber {
+	
+	public static void main(String args[])
+	{
+		
+		//for loop 
+		for()
+		{
+			
+		}
+		
+		System.out.println("Hello World");
+
+	}
+
+}

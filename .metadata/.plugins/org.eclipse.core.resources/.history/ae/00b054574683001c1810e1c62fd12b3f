@@ -1,0 +1,40 @@
+package com.cpagi.day4;
+
+//Employee Management System
+
+//Add the List of Employee
+//Find the Employee By name
+//Sort the Employee List
+//Add New Employee to List
+//Find the min and max salary of employee
+import java.util.*;
+class EmployeeM {
+
+}
+
+public class EmployeeManagment {
+
+	public static void main(String arg[]) {
+
+		Scanner sc=new Scanner(System.in);
+		
+		while (true) {
+
+			System.out.println("Enter 1 for create a List of employee");
+			System.out.println("enter 5 for exit");
+			int choice=sc.nextInt();
+			
+			if(choice==1)
+			{
+				
+			}
+			if(choice==5)
+			{
+			 break;	
+			}
+			
+			
+			
+		}
+	}
+}

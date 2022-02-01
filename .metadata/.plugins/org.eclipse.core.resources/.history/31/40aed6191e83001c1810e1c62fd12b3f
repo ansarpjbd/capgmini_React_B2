@@ -1,0 +1,37 @@
+package com.cpagi.day4;
+
+
+//Array can have anytype
+//int,float, boolean ,double, Userdefined class
+//Array will start from the zero
+public class MyArray {
+	
+	public static void main(String args[])
+	{
+    
+		//Problem ..need to store 100 integer value
+		int a;
+
+		
+		//more data to store u can make use of array
+		
+		//Array is datatype in java which allow store and print the one than more same type of data
+		
+		//data type        //name  array bracket        data type   size
+		int                arr     []=              new int           [5];
+		  
+		arr[0]=1;
+		arr[1]=2;
+		arr[2]=3;
+		arr[3]=4;
+		arr[4]=5;
+		
+		System.out.println("1st location "+arr[0]);
+		System.out.println("2 location "+arr[1]);
+		System.out.println("3 location "+arr[2]);
+		System.out.println("4 location "+arr[3]);
+		System.out.println("5 location "+arr[4]);
+		
+	}
+
+}

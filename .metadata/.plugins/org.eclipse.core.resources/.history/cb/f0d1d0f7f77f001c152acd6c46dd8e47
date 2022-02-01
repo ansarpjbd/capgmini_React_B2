@@ -1,0 +1,33 @@
+package com.cpagi.day2;
+
+
+//house
+//design --where is main gate
+      // lobby
+     //liviing 
+
+//take paper and create same type of house (any number)
+
+//Java artch
+
+class Phone
+{
+private int price;
+private String Brand;
+private String color;
+private int storage;
+private float screenSize;
+
+}
+
+public class MyClass {
+
+//part1
+//member variable	
+	
+	
+//part2
+//method	
+	
+	
+}

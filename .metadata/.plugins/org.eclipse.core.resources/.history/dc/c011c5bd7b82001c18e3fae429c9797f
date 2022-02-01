@@ -1,0 +1,17 @@
+package com.cpagi.day3;
+
+interface Mobile
+{
+	public void calling();
+	public void sendSMS();
+	
+}
+class Google implements Mobile
+{
+	
+}
+
+
+public class MyAbstraction {
+
+}

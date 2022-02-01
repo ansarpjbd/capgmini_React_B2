@@ -1,0 +1,16 @@
+package com.cpagi.day4;
+
+
+
+public class MyArray {
+	
+	public static void main(String args[])
+	{
+    
+		//Problem ..need to store 100 integer value
+		
+		
+		
+	}
+
+}

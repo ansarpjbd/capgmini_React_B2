@@ -1,0 +1,13 @@
+package com.capgmini.helloworld;
+
+public class ReadAndWriteFloat {
+	
+	public static void main(String args[])
+	{
+	 
+		float a=10.05f;
+		
+		System.out.println(a);
+	}
+
+}

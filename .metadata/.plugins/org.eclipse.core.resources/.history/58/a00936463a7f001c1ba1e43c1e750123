@@ -1,0 +1,19 @@
+package com.capgmini.helloworld;
+
+public class ReadAndWriteChar {
+	
+	public static void main(String args[])
+	{
+		
+	//Rule Char 
+	//Take value as Single quotes 	
+	char a=65;	
+	//65
+
+	
+	System.out.print(a);
+		
+		
+	}
+
+}

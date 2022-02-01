@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="com.capgmini.helloworld.B"/>
+    <fullyQualifiedTypeName name="com.capgmini.helloworld.Ravinder"/>
+    <fullyQualifiedTypeName name="com.cpagi.day2.Student"/>
+    <fullyQualifiedTypeName name="com.cpagi.day2.Student.Address"/>
+    <fullyQualifiedTypeName name="com.cpagi.day2.Phone"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="com.cpagi.day3.Parent2.Child"/>
+    <fullyQualifiedTypeName name="com.cpagi.day3.Parent1"/>
+    <fullyQualifiedTypeName name="com.cpagi.day3.Google"/>
+    <fullyQualifiedTypeName name="com.cpagi.day3.Apple"/>
+    <fullyQualifiedTypeName name="java.lang.Override"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,27 @@
+package com.cpagi.day4;
+
+
+
+public class MyArray {
+	
+	public static void main(String args[])
+	{
+    
+		//Problem ..need to store 100 integer value
+		int a;
+		int b;
+		int c;
+		int d;
+		int e;
+		
+		//more data to store u can make use of array
+		
+		//Array is datatype in java which allow store and print the one than more same type of data
+		
+		//data type        //name  array bracket        data type   size
+		int                arr     []=              new int           [10];
+		
+		
+	}
+
+}

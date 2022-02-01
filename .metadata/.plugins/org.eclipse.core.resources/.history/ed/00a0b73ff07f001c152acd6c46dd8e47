@@ -1,0 +1,16 @@
+package com.cpagi.day2;
+
+static class Student
+{
+	
+}
+
+
+public class MyStatic {
+	
+	public static void main(String args[])
+	{
+		
+	}
+
+}

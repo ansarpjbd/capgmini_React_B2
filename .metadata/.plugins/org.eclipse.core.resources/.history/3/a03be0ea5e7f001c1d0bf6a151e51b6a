@@ -1,0 +1,10 @@
+package com.capgmini.helloworld;
+
+public class MyDoWhileLoop {
+	
+	public static void main(String args[])
+	{
+		
+	}
+
+}

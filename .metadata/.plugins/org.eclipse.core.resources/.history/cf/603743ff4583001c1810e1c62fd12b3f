@@ -1,0 +1,26 @@
+package com.cpagi.day4;
+
+//Employee Management System
+
+//Add the List of Employee
+//Find the Employee By name
+//Sort the Employee List
+//Add New Employee to List
+//Find the min and max salary of employee
+
+class Employee
+{
+	
+}
+
+
+public class EmployeeManagment {
+	
+	public static void main(String arg[])
+	{
+	while(true)
+	{
+		
+	}
+	}
+}

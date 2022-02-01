@@ -1,0 +1,34 @@
+package com.cpagi.day2;
+
+public class MyArray {
+
+	
+	public static void main(String args[])
+	{
+     int a[]=new int[5];		
+	 
+     int [] b=new int[5];
+     
+     //Read//printing 
+     System.out.println(a[0]);
+     System.out.println(a[1]);
+     System.out.println(a[2]);
+     System.out.println(a[3]);
+     System.out.println(a[4]);
+     
+     
+     
+     //write //setting a value
+     //array starts with zero
+     a[0]=10;
+     a[1]=2;
+     a[2]=45;
+     a[3]=6;
+     a[4]=2;
+    // a[5]=9;
+     
+     
+     
+     
+	}
+}

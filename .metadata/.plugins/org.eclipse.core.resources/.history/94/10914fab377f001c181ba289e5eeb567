@@ -1,0 +1,10 @@
+package com.capgmini.helloworld;
+
+public class ReadAndWrite {
+	
+	public static void main(String arg[])
+	{
+		
+	}
+
+}

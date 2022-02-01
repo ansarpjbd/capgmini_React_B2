@@ -1,0 +1,15 @@
+package com.capgmini.helloworld;
+
+public class ReadAndWrite {
+	
+	public static void main(String arg[])
+	{
+		//write operation to RAM
+		int myvar=50;
+		
+		//Read operation from RAM
+		System.out.println(myvar);
+		
+	}
+
+}

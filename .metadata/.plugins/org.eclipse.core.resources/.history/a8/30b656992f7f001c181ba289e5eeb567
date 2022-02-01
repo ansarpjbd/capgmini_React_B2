@@ -1,0 +1,27 @@
+//package --it should be first line of code
+//keyword       //package name 
+package         com.capgmini.helloworld;
+
+
+//class
+public class HelloWorld {
+	
+//variables
+	
+	
+//method
+	
+	
+	
+//main method -- it is entry point of any our java program 
+              //we create the object and do other things inside main method
+              //main method has fixed signautre 
+	
+public static void main(String args[])
+{
+	
+}
+//main end	
+	
+
+}

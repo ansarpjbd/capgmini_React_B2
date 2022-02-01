@@ -1,0 +1,15 @@
+package com.capgmini.helloworld;
+
+public class MyIf {
+	
+	public static void main(String args[])
+	{
+		int a=-10;
+		
+		//Business Condition -> only positive number should print 
+		
+		System.out.println(a);
+		
+	}
+
+}
