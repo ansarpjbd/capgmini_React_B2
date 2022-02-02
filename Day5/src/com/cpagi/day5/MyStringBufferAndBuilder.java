@@ -18,7 +18,7 @@ public class MyStringBufferAndBuilder {
 		String str = "Hello";
 		// new string value
 		// str="Hello Java";
-		str = str.concat(" Java");
+		str=str.concat(" Java");
 		System.out.println(str);
 		// cannot used as data type
 		// StringBuffer used with new keyword
