@@ -12,7 +12,7 @@ class OnlyPostiveNumberAllowed extends Exception
 
 	public OnlyPostiveNumberAllowed(String msg)
 	{
-		//super keyword used to initlize the parent class constructor
+		//super keyword used to initialization the parent class constructor
 		//way to call parent class constructor
 		super(msg);
 	}
