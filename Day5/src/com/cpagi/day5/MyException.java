@@ -13,10 +13,6 @@ import java.io.FileInputStream;
 //Runtime Exception 
 
 
-//Checked Exception --check at compile time and throw a error
-
-
-//Unchecked Exception--which is not check at compile time 
 
 
 //Exception -it is error in java
@@ -30,13 +26,19 @@ import java.io.FileInputStream;
 
 //Logical error
 //Logical error is called exception 
+
+//1. Checked Exception --check at compile time and throw a error
+
+
+//2. Unchecked Exception--which is not check at compile time 
+
 //Each Exception have some name
 //Exception will break the flow of program
 //wrong input /output
 //we can handle the exception using try catch block
 //we can take the input again 
 //or we can show proper message to user
-
+//Whenever you some class Each class throw exception
 
 //Exception Handling --
 //try
