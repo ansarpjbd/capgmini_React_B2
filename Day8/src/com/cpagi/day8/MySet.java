@@ -1,6 +1,7 @@
 package com.cpagi.day8;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.EnumSet;
 import java.util.HashSet;
 import java.util.LinkedHashSet;
@@ -13,19 +14,54 @@ import java.util.TreeSet;
 //Create A Student class with(5 attribute)
 //Create A set with Student
 //Add the option
+
+//add method
 //Press 1 for insert
+
+//remove index
+//remove value
 //Press 2 for delete
+
+//replace
+//
 //Press 3 for Update
+//Collections.Sort
+//user defined data type
+    //Comparators
+
+     //Comparable
 //Press 4 for sort ASC
+
+//Colelctions.sort
+//Collections.revseredOrder()
 //Press 5 for sort DESC
+//size()
+
 //Press 6 for print the size
 //Press 7 for Exit
+//Press 8 for Sum of salary
+//Press 9 for max salary
+//Press 10 for min salary
+
+//while(true)
+//print
+//scanner
 
 
+//Employee data sort
+//sort by id with Comparable
+//implement the Comparable class
+//Pass the Class which you are going to Sort as Generic parameters
+//implement compareTo method
+//integer
+//if first value is > second //return 1
+//if first value is < second //return -1
+//if first value is == second //return 0;
 
+//String 
+//string.compareTO method to do it
 
-
-class Employee
+class Employee implements Comparable<Employee>
 {
  public Employee(int id, String name, float salary) {
 		super();
@@ -58,6 +94,23 @@ public int getId() {
 private int id;
  private String name;
  private float salary;
+@Override
+
+//
+public int compareTo(Employee e1) {
+	// TODO Auto-generated method stub
+	/*
+	 * //if first value is > second //return 1
+	 * 
+	 * 
+	 * if(this.salary>e1.getSalary()) { return 1; } //if first value is > second //
+	 * -1 else if(this.salary<e1.getSalary()) { return -1; } //if first value is ==
+	 * second // -1 else { return 0; }
+	 */
+	return this.name.compareTo(e1.getName());
+	
+	
+}
 	
 }
 
@@ -95,6 +148,8 @@ public class MySet {
 		s.add(10);
 		s.add(1);
 		s.add(4);
+		
+
 		s.add(100);
 		//clear the set
 		s.clear();
@@ -135,25 +190,46 @@ public class MySet {
 
 		
 		List<Employee> employeeList=new ArrayList<Employee>();
-		employeeList.add(new Employee(10, "Ansar", 100.0f));
-		employeeList.add(new Employee(1, "Priya", 100.0f));
-		employeeList.add(new Employee(2, "Kumar", 100.0f));
-		employeeList.add(new Employee(100, "Anil", 100.0f));
-		employeeList.add(new Employee(5, "Zee", 100.0f));
-		
+		employeeList.add(new Employee(10, "Ansar", 101.0f));
+		employeeList.add(new Employee(1, "Priya", 50.0f));
+		employeeList.add(new Employee(2, "Kumar", 10.0f));
+		employeeList.add(new Employee(100, "Anil", 5.0f));
+		employeeList.add(new Employee(5, "Zee", 60.0f));
+		System.out.println("Before sort");
 		employeeList.forEach(System.out::println);
-		
-		
-		Set<Employee> employeeSet=new LinkedHashSet<Employee>();
-		employeeList.add(new Employee(10, "Ansar", 100.0f));
-		employeeList.add(new Employee(1, "Priya", 100.0f));
-		employeeList.add(new Employee(2, "Kumar", 100.0f));
-		employeeList.add(new Employee(100, "Anil", 100.0f));
-		employeeList.add(new Employee(5, "Zee", 100.0f));
-		employeeList.add(new Employee(100, "Anil", 100.0f));
-		employeeList.add(new Employee(5, "Zee", 100.0f));
+		System.out.println("After sort");
+		Collections.sort(employeeList);
+	
+		/*
+		 * if(choice==1) {
+		 * 
+		 * //Scanner sc=new //int //name //salary employeeList.add(new Employee(id,
+		 * name, salary)); }
+		 */
+		employeeList.remove(0);
+		int i=0;
+		for(Employee emp:employeeList)
+		{
+		     if(emp.getName()=="Ansar")
+		     {
+		    	 employeeList.remove(i); 
+		     }
+		     i++;
+		}
 		
 		employeeList.forEach(System.err::println);
+		
+		
+		/*
+		 * Set<Employee> employeeSet=new LinkedHashSet<Employee>(); employeeList.add(new
+		 * Employee(10, "Ansar", 100.0f)); employeeList.add(new Employee(1, "Priya",
+		 * 100.0f)); employeeList.add(new Employee(2, "Kumar", 100.0f));
+		 * employeeList.add(new Employee(100, "Anil", 100.0f)); employeeList.add(new
+		 * Employee(5, "Zee", 100.0f)); employeeList.add(new Employee(100, "Anil",
+		 * 100.0f)); employeeList.add(new Employee(5, "Zee", 100.0f));
+		 * 
+		 * employeeList.forEach(System.err::println);
+		 */
 	}
 
 }

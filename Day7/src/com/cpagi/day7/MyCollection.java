@@ -126,7 +126,7 @@ public class MyCollection {
 		
 		//sort()
 		//ASC
-		//DESC second paramters as Collections.reverseOrder()
+		//DESC second parameters as Collections.reverseOrder()
 		Collections.sort(list);
 		
 		
