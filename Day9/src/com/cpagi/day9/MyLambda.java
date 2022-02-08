@@ -12,7 +12,7 @@ package com.cpagi.day9;
 //create a lamda
 
 //Create Lamda for Find Given Number is positive or Negative
-//Create Lamda to return sequre of given number
+//Create Lamda to return sequare of given number
 //create Lamda to pass String and return in Upper case
 //Create Lamda to pass string and return the lenght of String
 
@@ -43,15 +43,15 @@ public static void main(String args[])
 	int a=10;
 	System.out.println(a);
 	
-	//java 8 allow use to store the code (function )inside java vairable
+	//java 8 allow use to store the code (function )inside java variable
 	//pass the function or method to java code
 	//Type is not allowed because it is going to store in variable(Access Modifier)
 	//remove return type because whatever value you return i will understand 
 	//method name -add lamda with method name ->
 	//remove the method name because we are not calling variable name 
-	//if you have lamda on rightside you must have interface 
+	//if you have lamda on right side you must have interface 
 	//java says if one line code is there you can remove opening and closing bracket
-	//with code variable you will able to run ti
+	//with code variable you will able to run it
 	MyCode code=()->System.out.println("My Method");
 	//execute the code late
 	code.print();
