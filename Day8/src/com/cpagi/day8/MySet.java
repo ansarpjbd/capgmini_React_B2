@@ -107,6 +107,8 @@ public int compareTo(Employee e1) {
 	 * -1 else if(this.salary<e1.getSalary()) { return -1; } //if first value is ==
 	 * second // -1 else { return 0; }
 	 */
+	
+	//String 
 	return this.name.compareTo(e1.getName());
 	
 	
@@ -119,7 +121,7 @@ public int compareTo(Employee e1) {
 //Set
 //set does not maintain the order
 //duplicate element is not allowed
-
+//with set you will not able to use Collections.Sort Method
 //HashSet--part of set
 //it does not maintain order and does not contain duplicate 
 
@@ -128,7 +130,7 @@ public int compareTo(Employee e1) {
 //--duplicate not allowed 
 //Maintain the order
 
-//TreeSet
+//TreeSet(Comparators)
 //it is sorting the data 
 //duplicate is not allowed
 

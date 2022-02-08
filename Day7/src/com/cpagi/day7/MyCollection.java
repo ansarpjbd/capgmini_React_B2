@@ -137,7 +137,7 @@ public class MyCollection {
 		
 		list.forEach(System.out::println);
 		
-		//list.forEach(e->System.out.println(e));
+		list.forEach(e->System.out.println(e));
 		
 	   //direclty with to string 
 		//System.out.println(list);
