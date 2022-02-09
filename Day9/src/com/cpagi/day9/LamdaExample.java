@@ -1,9 +1,9 @@
 package com.cpagi.day9;
 
-//Create Lamda for Find Given Number is positive or Negative
-//Create Lamda to return sequare of given number
-//create Lamda to pass String and return in Upper case
-//Create Lamda to pass string and return the lenght of String
+//Create Lambda for Find Given Number is positive or Negative
+//Create Lambda to return sequare of given number
+//create Lambda to pass String and return in Upper case
+//Create Lambda to pass string and return the lenght of String
 
 @FunctionalInterface
 interface PostiveOrNegative {

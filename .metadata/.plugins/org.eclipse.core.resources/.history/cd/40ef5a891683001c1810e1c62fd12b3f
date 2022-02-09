@@ -1,9 +1,0 @@
-package com.cpagi.day3;
-
-public class MyEncapsulaton {
-	public static void main(String args[])
-	{
-		
-	}
-
-}

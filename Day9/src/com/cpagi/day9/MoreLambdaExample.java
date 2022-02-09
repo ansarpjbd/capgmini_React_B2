@@ -6,8 +6,8 @@ package com.cpagi.day9;
 //A
 
 //Lamdba to print the series number 1 to 100
-////Lamdba for convert Char to Number(ASCI)
-//Lamdba for FInd the max number;
+//Lamdba for convert Char to Number(ASCI)
+//Lamdba for Find the max number;
 //Lamdba for Min Value
 //Lamdba for Sum of Value
 //Lamdba for FInd the Avg of Number
