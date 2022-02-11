@@ -34,6 +34,6 @@ create table dept(id BIGSERIAL primary key, name varchar(100));
 
 Alter --it will change the table structore 
 
-ALTER table emp Add Foreign Key (id) References dept(id) 
+ALTER table emp Add Foreign Key (dept) References dept(id) 
 
 
