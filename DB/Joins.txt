@@ -1,0 +1,39 @@
+Single Table
+Select Query
+Update Query
+Delete Query
+
+Table A and Table B
+Need to get the data of both the table
+
+POstgre is called relational database
+Oracle
+MySql
+Sql Server
+
+One table will have the relation with another 
+Table A --(Primary Key)  Table Forgirn key
+
+Delete the Table
+Drop Table tablename
+Drop Table Employee;
+
+Joins 
+Employeee 
+id   name  salary   dept
+1    Ansar	100		1
+2    Kumar   100	1
+3     Priya 50      5
+create table emp(id BIGSERIAL primary key,name varchar2(100), salary integer, dept   integer References Dept(id);
+
+Dept
+id   name 
+1    IT
+5    Account
+create table dept(id BIGSERIAL primary key, name varchar(100));
+
+Alter --it will change the table structore 
+
+ALTER table emp Add Foreign Key (id) References dept(id) 
+
+
